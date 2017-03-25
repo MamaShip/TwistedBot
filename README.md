@@ -1,5 +1,6 @@
 # TwistedBot
 My telegram bot
+
 尝试用python写个telegram机器人
 
 现阶段实现的功能有：
@@ -11,4 +12,12 @@ My telegram bot
 
 ******
 爬虫部分：吅
+
 robot部分：我和我的服务器
+******
+只有Spider.py和robot.py是主程序，其他是测试功能的临时文件。
+******
+future
+* ／friend Japari图书馆：可以查询自己是什么样的动物 「哇！好厲～害！你是擅長XX的朋友呢！」
+* ／son 可以标记谁是自己的儿子
+* ／family 查看自己的家谱
