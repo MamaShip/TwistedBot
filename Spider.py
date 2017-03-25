@@ -10,7 +10,7 @@ values = {'username': '', 'password': ''}
 headers = {'User-Agent': user_agent}
 postdata = urllib.urlencode(values)
 
-savePath = '/root/bot/'
+savePath = '/Users/godlike/Desktop/work/TwistedBot/pic/'
 
 str_table = {
     '_z2C$q': ':',
