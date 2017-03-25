@@ -1,5 +1,5 @@
 # TwistedBot
-My telegram bot
+My telegram bot——在telegram上搜索 @Twisted_bot 来与他对话
 
 尝试用python写个telegram机器人
 
@@ -11,9 +11,9 @@ My telegram bot
 * echo - 对任何非指令的文本，它会返回相同的内容（学你说话）
 
 ******
-爬虫部分：吅
+爬虫部分贡献者：吅
 
-robot部分：我和我的服务器
+Robot：我和我的服务器
 ******
 只有Spider.py和robot.py是主程序，其他是测试功能的临时文件。
 ******
