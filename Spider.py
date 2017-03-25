@@ -73,6 +73,7 @@ def saveUrl(urls, path=savePath):
             continue
         file.write('%s\n' % imageUrl)
         file.flush()
+        del response
         num[0] += 1
         if num[0] == setNum[0]:
             break

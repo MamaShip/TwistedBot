@@ -12,7 +12,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 
-file = open("/root/bot/imageUrls.txt")
+file = open("/root/bot/pic/imageUrls.txt")
 image_list = []
 for line in file:
     image_list.append(line.strip('\n'))
@@ -22,7 +22,7 @@ n = len(image_list)
 #bot = telegram.Bot(token='362488155:AAHrtcYCxucyZCHA4gcvJwGTZFfwRSUHjWM')
 
 def start(bot,update):
-    bot.sendMessage(chat_id=update.message.chat_id, text="这是游荡的机器人。\n @MamaShip 锐意制作中！")
+    bot.sendMessage(chat_id=update.message.chat_id, text="我是游荡的机器人(๑• . •๑)\n @MamaShip 锐意制作中！\n请使用/help 查看可用命令")
 def echo(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text=update.message.text)
 def cat(bot,update):
