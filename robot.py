@@ -5,6 +5,7 @@ from telegram.ext import MessageHandler, Filters
 from random import randint
 import MySQLdb
 
+#请不要直接使用我代码里的token！每个机器人的token是独立的，你需要为自己的机器人生成新的token
 updater = Updater(token='362488155:AAHrtcYCxucyZCHA4gcvJwGTZFfwRSUHjWM')
 dispatcher = updater.dispatcher
 
